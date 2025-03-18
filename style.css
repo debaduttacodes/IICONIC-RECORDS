@@ -1,14 +1,35 @@
-<style>
-        body {
+
+body {
             background-color: aliceblue;
         }
         /* Optional: Additional styling to make it look cleaner */
-        header {
+
+
+        
+header {
+            position: relative;
             background-image: url(./images/background-image-home.jpg);
             padding: 1rem;
+            
         }
-        .nav-link {
+.nav-link {
             color: #ffffff;
         }
 
-    </style>
+        .raise-voice-text {
+            color: white;
+            font-size: 3.5em;
+            font-style: italic;
+            padding: 1rem;
+        }
+
+        .raise-voice-description {
+            color: white;
+            font-size:150%;font-family:Helvetica,sans-serif;
+        }
+
+        .iiconic-records-section{
+            background-color: #0C0950;
+        }
+
+
