@@ -1,0 +1,14 @@
+<style>
+        body {
+            background-color: aliceblue;
+        }
+        /* Optional: Additional styling to make it look cleaner */
+        header {
+            background-image: url(./images/background-image-home.jpg);
+            padding: 1rem;
+        }
+        .nav-link {
+            color: #ffffff;
+        }
+
+    </style>
