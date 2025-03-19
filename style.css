@@ -18,9 +18,8 @@ header {
 
         .raise-voice-text {
             color: white;
-            font-size: 3.5em;
+            font-size: 3.6rem;
             font-style: italic;
-            padding: 1rem;
         }
 
         .raise-voice-description {
