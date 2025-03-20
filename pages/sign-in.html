@@ -11,45 +11,36 @@
   <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,300&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <style>
-    /* Custom Styles */
     body {
       display: flex;
       align-items: center;
       justify-content: center;
       height: 100vh;
-      background-color: #2A3335; /* Light Gray Background */
+      background-color: #2A3335;
     }
     .form-signin {
       max-width: 330px;
       padding: 1rem;
       border-radius: 10px;
       box-shadow: 0px 0px 10px rgba(5, 205, 255, 0.267);
+      background: #1c1f20;
     }
-    .form-signin .form-floating:focus-within {
-      z-index: 2;
-    }
-    .form-signin input[type="email"],
-    .form-signin input[type="password"] {
-      margin-bottom: -1px;
-      border-radius: 5px;
-    }
-    .form-signin input[type="password"] {
-      margin-bottom: 10px;
-      border-radius: 5px;
-      border-top-left-radius: 0;
-      border-top-right-radius: 0;
-    }
-
     .sign-in-text {
       font-family: "Big Shoulders", sans-serif;
-      font-weight: 700; /* Fixing the font-weight issue */
+      font-weight: 700;
       font-size: 24px;
       color: #d1d1d1;
       text-align: center;
     }
-.checkbox.mb-3{
-  color: white;
-}
+    .checkbox.mb-3 {
+      color: white;
+    }
+    .text-muted {
+      color: white !important;
+    }
+    .sign-up {
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
@@ -74,6 +65,11 @@
         </label>
       </div>
       <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+      
+      <div class="sign-up">
+        <p class="text-muted">Not registered? <a href="/pages/sign-up.html" class="text-primary">Sign up</a></p>
+      </div>
+      
       <p class="mt-5 mb-3 text-muted">© 2024</p>
     </form>
   </main>
